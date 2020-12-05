@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>  <!--웹페이지에 대한 정보를 제공한다.-->
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="js/control.js"></script>
+ <title> New Turn </title>   <!--탭에 New Turn을 나타낸다.-->
+ <style>
+ 	@font-face{
+ 		font-family:"My Font";
+ 		src: url("fontstyle/ENCOSCPT.TTF");
+ 	}
+ 	html, ul, li, button{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	
+	#slide_img{
+		display:block;
+		border:0;
+	}
+	.slide{
+		width:1200px;
+		overflow:hidden;
+		margin:0 auto;
+		position: relative;
+	}
+	.slide ul{
+		width:3600px;
+		list-style: none;
+		font-size:0;
+	}
+	.slide ul li{
+		display: inline-block;
+	}
+	.slide button.prev{
+		position: absolute;
+		left:0;
+		top:220px;
+		<!--300-60/2-->
+	}
+	.slide button.next{
+		position: absolute;
+		right:0;
+		top:220px;
+	}
+   h1{
+   	color:#003900; 
+   	position:fixed;
+   	top: 0px;
+   	left:10px;
+   	font-family:"My Font", serif; 
+   	font-size: 30pt;
+   }
+   #infor{
+   position:fixed; 
+   top:40px; right:0px;
+   }
+   #infor a{
+   text-decoration:none; 
+   color:#5D5D5D; 
+   font-size:13pt; 
+   display: inline;
+   padding :5px;
+   }
+   #infor a:hover{
+   tex-decoration:underline; 
+   color: black;
+   text-weight:bold;
+   }
+   #categ{
+   position:fixed;
+   top:25px; right:670px;
+   }
+   #categ ul li{
+   display: inline;
+   }
+   #categ ul li a{
+   text-decoration:none; 
+   color:#003900; 
+   font-size:10pt;
+   font-weight:bold;
+   text-transform:uppercase;
+   padding :5px;
+   }
+   #categ ul li a:hover{
+   tex-decoration:underline; color: black;
+   }
+   #main{
+   position:relative;
+   top: 300px; margin-left:150px;
+   }
+   #main_b{
+   position:relative;
+   top :480px; left:370px;
+   }
+   table tr td div{
+   width:20px;
+   height:20px;
+   }
+ </style>
+</head>
+<body>
+	<h1> New Turn</h1>
+	<div id="infor">
+	  <a href="Login.html">LOGIN</a> <!--다른 페이지로 이동한다.-->
+	  <a href="회원가입 창.html">JOIN</a>
+	  <a href="마이페이지.html">마이페이지</a> 
+	  <a href="">주문/배송</a>
+	</div>
+	<div id="categ">
+		<ul>
+			<li><a href="top.html">BLOUSE</a></li>
+			<li><a href="skirt.html">SKIRT</a></li>
+			<li><a href="pants.html">PANTS</a></li>
+		</ul>
+	</div>
+	<div style="position:relative; top: 200px;">
+		<div class="slide">
+			<button class="prev" type="button"><img id="slide_img" src="images/left.JPG" alt="left"></button>
+			<!-- image 700x300 -->
+				<ul>
+					<li><img id="slide_img" src="images/그림2.PNG" alt="no" width="1200" height="400"/></li>
+					<li><img id="slide_img" src="images/그림1.PNG" alt="no" width="1200" height="400"/></li>
+					<li><img id="slide_img" src="images/그림3.PNG" alt="no" width="1200" height="400"/></li>
+				</ul>
+			<button class="next" type="button"><img id="slide_img" src="images/right.JPG" alt="next"></button>
+		</div>
+	</div>
+	<div id="main">
+		<a href="태연.html">
+		<img src="images/그림1.PNG" width="380" height="380"></a>
+		<img src="images/그림2.PNG" width="380" height="380" style="padding-left:20px;">
+		<img src="images/그림3.PNG" width="380" height="380" style="padding-left:20px;">
+		<table>
+			<tr>
+				<td><div style="background-color:black;"></div></td>
+				<td style="padding-left:270px;">(size : free)</td>
+				<td><div style="background-color:#002266; margin-left:30px;"></div></td>
+				<td><div style="background-color:#980000;"></div></td>
+				<td style="padding-left:250px;">(size : free)</td>
+				<td><div style="background-color:#998A00;margin-left:30px;"></div></td>
+				<td><div style="background-color:#5F00FF;"></div></td>
+				<td style="padding-left:250px;">(size : free)</td>
+		    </tr>
+		</table>
+		<table>
+		<tr>
+			<td>태연's 자수패치 스카잔 점퍼</td>
+			<td style="padding-left: 200px;">러블리 플라워 BL</td>
+			<td style="padding-left: 280px;">캐주얼 루즈핏 데님자켓</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+	    	<td>99,000won</td>
+	    	<td style="padding-left: 325px;">49,900won</td>
+	    	<td style="padding-left: 325px;">69,900won</td>
+	    </tr>
+	</table>
+	</div>
+	<div id="main_b">
+		<img src="images/그림4.PNG" width="380" height="380">
+		<img src="images/그림5.PNG" width="380" height="380" style="padding-left:20px;">
+		<table>
+			<tr>
+				<td><div style="background-color: black;"></div></td>
+				<td style="padding-left:270px;">(size : free)</td>
+				<td><div style="background-color: #FF4848; margin-left:30px;"></div></td>
+				<td><div style="background-color: #FFF2E6;"></div></td>
+				<td style="padding-left:250px;">(size : free)</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>슬리브리스 플레어 원피스</td>
+				<td style="padding-left: 210px;">투머치 오버 커프스 BL</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>49,900</td>
+				<td style="padding-left: 355px;">49,900</td>
+			</tr>
+		</table>
+	</div>
+ </html>

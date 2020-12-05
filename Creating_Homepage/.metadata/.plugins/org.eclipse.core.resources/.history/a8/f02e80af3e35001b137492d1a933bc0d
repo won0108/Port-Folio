@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>  <!--웹페이지에 대한 정보를 제공한다.-->
+ <title> New Turn </title>  <!--탭에 New Turn을 나타낸다.-->
+<style>
+	
+ 	@font-face{
+ 	font-family:"My Font";
+ 	src: url("fontstyle/ENCOSCPT.TTF");
+	}
+ 	h1{
+   	color:#003900; 
+   	position:fixed;
+   	top: 0px;
+   	left:10px;
+   	font-family:"My Font", serif; 
+   	font-size: 30pt;
+   	}
+	#infor{
+	position:fixed; 
+	top:40px; right:0px;
+	}
+	#infor a{
+	text-decoration:none; 
+	color:#5D5D5D; 
+	font-size:13pt; 
+	display: inline;
+	padding :5px;
+	}
+	#infor a:hover{
+	tex-decoration:underline; 
+	color: black;
+	text-weight:bold;
+	}
+	#categ{
+	position:fixed;
+	top:25px; right:730px;
+	}
+	#categ ul li{
+	display: inline;
+	}
+	#categ ul li a{
+	text-decoration:none; 
+	color:#003900; 
+	font-size:10pt;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding :5px;
+	}
+	#categ ul li a:hover{
+	tex-decoration:underline; color: black;
+	}
+	#main{
+   	position:relative;
+   	top: 300px; margin-left:150px;
+   }
+</style>
+</head>
+<body>
+	<h1> NewTurn </h1>
+	<div id="infor">
+		<a href="shoping.html">홈</a>
+		<a href="">CART</a>
+		<a href="">주문/배송</a>
+		<a href="마이페이지.html">마이페이지</a>
+	</div>
+	<div id="categ">
+		<ul>
+			<li><a href="top.html">BLOUSE</a></li>
+			<li><a href="skirt.html">SKIRT</a></li>
+			<li><a href="pants.html">PANTS</a></li>
+		</ul>
+	</div>
+	<img style="position:relative; top: 200px; left:450px;" src="images/티파니.PNG"><br>
+	<div id="main">
+			<img src="images/바지1.PNG" width="380" height="380">
+			<img src="images/바지2.PNG" width="380" height="380" style="padding-left:20px;">
+			<img src="images/바지3.PNG" width="380" height="380" style="padding-left:20px;">
+			<table>
+				<tr>
+					<td>피리부는 소녀</td>
+					<td style="padding-left:190px;">(size : free)</td>
+					<td style="padding-left: 30px;">루나</td>
+					<td style="padding-left:250px;">(size : free)</td>
+					<td style="padding-left: 20px;">카우걸</td>
+					<td style="padding-left:250px;">(size : free)</td>
+					
+					
+			    </tr>
+			</table>
+			
+		<table>
+			<tr>
+		    	<td>12,000won</td>
+		    	<td style="padding-left: 325px;">19,900won</td>
+		    	<td style="padding-left: 325px;">29,900won</td>
+		    </tr>
+		</table>
+	</div>
+</body>
+</html>

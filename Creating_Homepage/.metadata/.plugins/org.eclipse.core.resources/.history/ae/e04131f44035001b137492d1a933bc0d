@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>  <!--웹페이지에 대한 정보를 제공한다.-->
+<title> New Turn </title>   <!--탭에 New Turn을 나타낸다.-->
+<style>
+ @font-face{
+ 		font-family:"My Font";
+ 		src: url("fontstyle/ENCOSCPT.TTF");
+ 	}
+ 	h1{
+   	color:#003900; 
+   	position:fixed;
+   	top: 0px;
+   	left:10px;
+   	font-family:"My Font", serif; 
+   	font-size: 30pt;
+   }
+   #infor{
+   position:fixed; 
+   top:40px; right:0px;
+   }
+   #infor a{
+   text-decoration:none; 
+   color:#5D5D5D; 
+   font-size:13pt; 
+   display: inline;
+   padding :5px;
+   }
+   #infor a:hover{
+   tex-decoration:underline; 
+   color: black;
+   text-weight:bold;
+   }
+   #categ{
+   position:fixed;
+   top:25px; right:670px;
+   }
+   #categ ul li{
+   display: inline;
+   }
+   #categ ul li a{
+   text-decoration:none; 
+   color:#003900; 
+   font-size:10pt;
+   font-weight:bold;
+   text-transform:uppercase;
+   padding :5px;
+   }
+   #categ ul li a:hover{
+   tex-decoration:underline; color: black;
+   }
+</style>
+</head>
+<body>
+ <form>
+ <h1> New Turn </h1>
+ <div id="infor">
+  <a href="로그인.html">LOGIN</a> <!--다른 페이지로 이동한다.-->
+  <a href="회원가입 창.html">JOIN</a>
+  <a href="마이페이지.html">마이페이지</a> 
+  <a href="">주문/배송</a></div>
+ <div id="categ">
+		<ul>
+			<li><a href="top.html">BLOUSE</a></li>
+			<li><a href="skirt.html">SKIRT</a></li>
+			<li><a href="pants.html">PANTS</a></li>
+		</ul>
+	</div>
+
+<h2 style="position: absolute; top: 100px; left: 800px;">마이페이지</h2>
+<hr color="#F6F6F6">
+<h4 align="center">나의 혜택</h4>
+<table align="center">
+<tr><td><img src="마일.png" width="100" height="100" align="middle">
+마일리지</td><td><img src="공백.png" width="50" height="50"></td>
+<td><h2>0장</h2></td><td><img src="공백.png" width="50" height="50"></td>
+<td><img src="보유쿠폰.png" width="80" height="80" align="middle">보유쿠폰</td>
+<td><img src="공백.png" width="50" height="50"></td>
+<td><h2>0장</h2></td>
+</tr></table>
+<h4 align="center">나의 주문 내역</h4>
+<table align="center">
+<tr><td> 주문일/주문번호</td>
+<td><img src="공백.png" width="50" height="50"></td>
+<td>상품정보</td>
+<td><img src="공백.png" width="50" height="50"></td><td>주문금액</td>
+<td><img src="공백.png" width="50" height="50"></td><td>배송비</td>
+<td><img src="공백.png" width="30" height="50"></td><td>상태</td>
+<td><img src="공백.png" width="30" height="50"></td><td>반품/교환/취소</td></tr></table>
+<h4 align="center">진행중인 주문/배송 내역이 없습니다.</h4>
+
+<div id=footer style="float:left;">
+<img src="노트북.png" width="70px" height="50px" style="float:left;">
+<h2>온라인 스토어 고객센터</h2><br>
+<h2><em5>Tel</em5>. 1522-0457</h2>
+<p>온라인 쇼핑(온라인 주문/배송/교환,반품)<br> 관련 문의</p>
+<p>평일 10:00~17:00/토,일,공휴일 휴무</p><p>점심시간:12:00~13~00</p>
+<p>&nbsp</p></div>
+<div style="background-color:#E4E4E4; float:left; padding:10px;">
+<img src="헤드폰.png" width="50px; height="50px" style="float:left;">
+<h2>A/S 및 고객상담</h2><br>
+<h2><em5>Tel</em5>. 080-249-0769</h2>
+<p>오르파인에서 구입한 상품A/S문의 및<br>오프라인 매장 상품 및 재고문의</p>
+<p>평일 09:00~18:00/토,일,공휴일 휴무</p>
+<p>점심시간:12:00~13:00</p>
+<p>서울 특별시 동대문구 고미술로 11 삼희상가 1동 2층</p>
+</div>
+<div style="background-color:#E4E4E4; width:400px; height:320px; float:left; text-align:center; padding:10px;">
+<h3>STORE INFO</h3>
+<p>매장위치</p>
+<p>매장개설문의</p>
+</div>
+<div style="background-color:#E4E4E4; width:260px; height:320px; float:left; padding:10px;">
+<h3>CUSTOMER</h3>
+<p>FAQ 자주하는 질문</p>
+<p>Q&A 일대일 상담</p></div>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>  <!--웹페이지에 대한 정보를 제공한다.-->
+ <title> 로그인 </title>   <!--탭에 New Turn을 나타낸다.-->
+<style>
+	@font-face{
+ 		font-family:"My Font";
+ 		src: url("fontstyle/ENCOSCPT.TTF");
+ 	}
+ 	h1{
+   	color:#003900; 
+   	position:fixed;
+   	top: 0px;
+   	left:10px;
+   	font-family:"My Font", serif; 
+   	font-size: 30pt;
+   }
+   #infor{
+   position:fixed; 
+   top:40px; right:0px;
+   }
+   #infor a{
+   text-decoration:none; 
+   color:#5D5D5D; 
+   font-size:13pt; 
+   display: inline;
+   padding :5px;
+   }
+   #infor a:hover{
+   tex-decoration:underline; 
+   color: black;
+   text-weight:bold;
+   }
+   #categ{
+   position:fixed;
+   top:25px; right:670px;
+   }
+   #categ ul li{
+   display: inline;
+   }
+   #categ ul li a{
+   text-decoration:none; 
+   color:#003900; 
+   font-size:10pt;
+   font-weight:bold;
+   text-transform:uppercase;
+   padding :5px;
+   }
+   #categ ul li a:hover{
+   tex-decoration:underline; color: black;
+   }
+ 
+ h2{text-align:center;}
+ #join{position:relative; left:600px;}
+ 
+</style>
+<style type="text/css">
+#button1{
+ background: #000000;
+ padding:15px 30px 15px 25px;
+ font-size:15px;
+ font-weight:bold;
+ color:#ffffff;
+ text-align:center;
+ background: -moz-linear-gradient(0%, 100%, 90deg, #75BC00, #ffffff);
+ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#000000));
+
+border-radius:5px;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+ border-bottom-color:#000000;
+ text-shadow:0 -1px 0 #000000;
+ }
+</style>
+
+</head>
+<body>
+ <h1>New Turn</h1>
+	<div id="infor">
+	  <a href="Login.html">LOGIN</a> <!--다른 페이지로 이동한다.-->
+	  <a href="회원가입 창.html">JOIN</a>
+	  <a href="마이페이지.html">마이페이지</a> 
+	  <a href="">주문/배송</a>
+	</div>
+	<div id="categ">
+		<ul>
+			<li><a href="top.html">BLOUSE</a></li>
+			<li><a href="skirt.html">SKIRT</a></li>
+			<li><a href="pants.html">PANTS</a></li>
+		</ul>
+	</div>
+  	<table style="position:relative; top: 200px;">
+	  	<tr>
+	  		<td>회원ID <input type="text" name="id">
+	  		<br>비밀번호<input type="password" name="pass"></td>
+	  		<td><button type="button" id = "button1">로그인</button></td>
+		</tr>
+	</table>
+ <div id="join">
+   <a href="C:\Users\samsung\Desktop\쇼핑몰\회원가입 창.html">회원가입</a>
+   <a href="">아이디/비밀번호 찾기</a>
+ </div>
+  
+ </form>
+</body>
+</html>

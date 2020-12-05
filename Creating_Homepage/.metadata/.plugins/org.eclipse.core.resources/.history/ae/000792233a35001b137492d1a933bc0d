@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>  <!--¿•∆‰¿Ã¡ˆø° ¥Î«— ¡§∫∏∏¶ ¡¶∞¯«—¥Ÿ.-->
+ <title> New Turn </title>  <!--≈«ø° New Turn¿ª ≥™≈∏≥Ω¥Ÿ.-->
+<style>
+	
+ 	@font-face
+ 	{
+ 		font-family:"My Font";
+ 		src: url("fontstyle/ENCOSCPT.TTF");
+	}
+ 	h1{
+   	color:#003900; 
+   	position:fixed;
+   	top: 0px;
+   	left:10px;
+   	font-family:"My Font", serif; 
+   	font-size: 30pt;
+   	}
+	#infor{
+	position:fixed; 
+	top:40px; right:0px;
+	}
+	#infor a{
+	text-decoration:none; 
+	color:#5D5D5D; 
+	font-size:13pt; 
+	display: inline;
+	padding :5px;
+	}
+	#infor a:hover{
+	tex-decoration:underline; 
+	color: black;
+	text-weight:bold;
+	}
+	#categ{
+	position:fixed;
+	top:25px; right:730px;
+	}
+	#categ ul li{
+	display: inline;
+	}
+	#categ ul li a{
+	text-decoration:none; 
+	color:#003900; 
+	font-size:10pt;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding :5px;
+	}
+	#categ ul li a:hover{
+	tex-decoration:underline; color: black;
+	}
+	#main{
+   	position:relative;
+   	top: 300px; margin-left:150px;
+   }
+</style>
+</head>
+<body>
+<h1> NewTurn </h1>
+<div id="infor">
+	<a href="">CART</a>
+	<a href="">¡÷πÆ/πËº€</a>
+	<a href="∏∂¿Ã∆‰¿Ã¡ˆ.html">∏∂¿Ã∆‰¿Ã¡ˆ</a>
+</div>
+<div id="categ">
+		<ul>
+			<li><a href="top.html">BLOUSE</a></li>
+			<li><a href="skirt.html">SKIRT</a></li>
+			<li><a href="pants.html">PANTS</a></li>
+		</ul>
+</div>
+<img style="position:relative; top : 200px; left:450px;" src="images/∆º∆ƒ¥œ.PNG"><br>
+<div id="main">
+		<img src="images/∆ºº≈√˜1.PNG" width="380" height="380">
+		<img src="images/∆ºº≈√˜2.PNG" width="380" height="380" style="padding-left:20px;">
+		<img src="images/∆ºº≈√˜3.PNG" width="380" height="380" style="padding-left:20px;">
+		<table>
+			<tr>
+				<td><div style="background-color:black;"></div></td>
+				<td style="padding-left:270px;">(size : free)</td>
+				<td><div style="background-color:#002266; margin-left:30px;"></div></td>
+				<td><div style="background-color:#980000;"></div></td>
+				<td style="padding-left:250px;">(size : free)</td>
+				<td><div style="background-color:#998A00;margin-left:30px;"></div></td>
+				<td><div style="background-color:#5F00FF;"></div></td>
+				<td style="padding-left:250px;">(size : free)</td>
+		    </tr>
+		</table>
+		<table>
+		<tr>
+			<td>∫“≈∏¥¬ ≈‰ø‰¿œ</td>
+			<td style="padding-left: 200px;">ƒÔΩ∫∆Æ</td>
+			<td style="padding-left: 280px;">ºº¿Ã«¡</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+	    	<td>12,000won</td>
+	    	<td style="padding-left: 325px;">19,900won</td>
+	    	<td style="padding-left: 325px;">29,900won</td>
+	    </tr>
+	</table>
+	</div>
+<div style="margin:10px;float:left;">
+   <img src="images/∆ºº≈√˜1.PNG" width="300" height="300">
+   <p>∫“≈∏¥¬ ≈‰ø‰¿œ</p>
+   <p>12000</p></div>
+   <img src="images/∆ºº≈√˜2.PNG" width="300" height="300">
+   <p>ƒÔΩ∫∆Æ</p>
+   <p>19000</p>
+   <img src="images/∆ºº≈√˜3.PNG" width="300" height="300">
+   <p>ºº¿Ã«¡</p>
+   <p>29000</p>
+   <img src="images/∆ºº≈√˜4.PNG" width="300" height="300">
+   <p>ø¿¥–Ω∫</p>
+   <p>19000</p>
+<div style="margin:10px; float:left;">
+<img src="∆ºº≈√˜5.png" width="300" height="300">
+<p>µ˚∂Ê«— ≥Ø</p>
+<p>29000</p>
+</div>
+<div style="margin:10px; float:left;">
+<img src="∆ºº≈√˜6.png" width="300" height="300">
+<p>»¸º¯¿Ã</p><p>12000</p></div>
+<div style="margin:10px; float:left;">
+<img src="∆ºº≈√˜7.png" width="300" height="300">
+<p>Ω∫∆Æ∂Û¿Ã«¡</p>
+<p>29000</p>
+</div>
+<div style="margin:10px; float:left;">
+<img src="∆ºº≈√˜8.png">
+<p>ø∑∆Æ¿”</p>
+<p>19000</p>
+</div>
+<div style="background-color:#5D5D5D; 
+width:85px; height:120px; right:20px; bottom:190px; 
+color:white; display:block; position:fixed; padding:10px;">
+<p>T-SHIRSTS</p>
+<p>SKIRT</p>
+<p>PANTS</p>
+</div>
+<div style=" display:block; position:fixed; right:20px; bottom:10px;">
+<img src="ƒÌ∆˘.png"></div>
+ </form>
+</body>
+</html>

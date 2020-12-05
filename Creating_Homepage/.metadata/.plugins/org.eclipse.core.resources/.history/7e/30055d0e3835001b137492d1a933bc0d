@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>  <!--웹페이지에 대한 정보를 제공한다.-->
+ <title> New Turn </title>  
+<style>
+ 	@font-face{
+ 		font-family:"My Font";
+ 		src: url("fontstyle/ENCOSCPT.TTF");
+ 	}
+ 	h1{
+   	color:#003900; 
+   	position:fixed;
+   	top: 0px;
+   	left:10px;
+   	font-family:"My Font", serif; 
+   	font-size: 30pt;
+   }
+   #infor{
+   position:fixed; 
+   top:40px; right:0px;
+   }
+   #infor a{
+   text-decoration:none; 
+   color:#5D5D5D; 
+   font-size:13pt; 
+   display: inline;
+   padding :5px;
+   }
+   #infor a:hover{
+   tex-decoration:underline; 
+   color: black;
+   text-weight:bold;
+   }
+   #categ{
+   position:fixed;
+   top:25px; right:670px;
+   }
+   #categ ul li{
+   display: inline;
+   }
+   #categ ul li a{
+   text-decoration:none; 
+   color:#003900; 
+   font-size:10pt;
+   font-weight:bold;
+   text-transform:uppercase;
+   padding :5px;
+   }
+   #categ ul li a:hover{
+   tex-decoration:underline; color: black;
+   }
+</style>
+</head>
+<body>
+<form>
+ <h1> New Turn </h1>
+<div id="infor">
+<a href="">CART</a>
+<a href="">주문/배송</a>
+<a href="C:\Users\samsung\Desktop\쇼핑몰\마이페이지.html">마이페이지</a></div>
+<ul>
+<a href="C:\Users\samsung\Desktop\쇼핑몰\top.html"style="padding:10px;">BLOUSE</a>
+<a href="C:\Users\samsung\Desktop\쇼핑몰\skirt.html" style="padding:10px;">SKIRT</a>
+<a href="C:\Users\samsung\Desktop\쇼핑몰\pants.html"style="padding:10px;">PANTS</a> </ul>
+<img style="position:relative; left:250px;"  src="서현.png"><br> 
+<div style="margin:10px;float:left;">
+<img src="바지2.png" width="375" height="300">
+<p>피리부는 소녀</p>
+<p>29000</p>
+</div>
+<div style="margin:10px;float:left;">
+<img src="바지3.png" width="375" height="300">
+<p>루나</p>
+<p>20000</p>
+</div>
+<div style="margin:10px;float:left;">
+<img src="바지4.png" width="375" height="300">
+<p>카우걸</p>
+<p>23000</p>
+</div>
+<div style="margin:10px;float:left;">
+<img src="반하이 절개 슬림.png" width="375" height="300">
+<p>반하이 절개 슬림</p>
+<p>30000</p>
+</div>
+<div style="margin:10px;float:left;">
+<img src="리코.png" width="375" height="300">
+<p>리코</p>
+<p>29000</p>
+</div>
+<div style="margin:10px;float:left;">
+<img src="크로와상.png" width="375" height="300">
+<p>크로와상</p>
+<p>12000</p>
+</div>
+<div style="margin:10px;float:left;">
+<img src="스트라이프.png" width="375" height="300">
+<p>스트라이프</p>
+<p>29000</p>
+</div>
+<div style="margin:10px;float:left;">
+<img src="여수밤바다.png" width="375" height="300">
+<p>여수밤바다</p>
+<p>30000</p>
+</div>
+ <div style="background-color:#5D5D5D; 
+width:85px; height:120px; right:20px; bottom:190px; 
+color:white; display:block; position:fixed; padding:10px;">
+<p>T-SHIRSTS</p>
+<p>SKIRT</p>
+<p>PANTS</p>
+</div>
+<div style=" display:block; position:fixed; right:20px; bottom:10px;">
+<img src="쿠폰.png"></div>
+ </form>
+</body>
+</html>

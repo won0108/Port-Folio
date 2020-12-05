@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Basic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Monster-set> //몬스터 종류
+		<Monster>
+			<MoName>SKELETON</MoName>
+			<Hp>9, 14, 18</Hp>
+			<Damage>1</Damage>
+		</Monster>
+		<Monster>
+			<MoName>GOBLIN</MoName>
+			<Hp>7, 11, 14</Hp>
+			<Damage>1</Damage>
+		</Monster>
+		<Monster>
+			<MoName>ORC</MoName>
+			<Hp>9, 14, 18</Hp>
+			<Damage>2</Damage>
+		</Monster>
+		<Monster>
+			<MoName>DWARF</MoName>
+			<Hp>7, 11, 14</Hp>
+			<Damage>2</Damage>
+		</Monster>
+		<Monster>
+			<MoName>DRAGON</MoName>
+			<Hp>9, 14, 18</Hp>
+			<Damage>3</Damage>
+		</Monster>
+		<Monster>
+			<MoName>WEREWOLF</MoName>
+			<Hp>7, 11, 14</Hp>
+			<Damage>3</Damage>
+		</Monster>
+		<Monster>
+			<MoName>VIPER</MoName>
+			<Hp>5, 8, 10</Hp>
+			<Damage>3</Damage>
+		</Monster>
+	</Monster-set>
+	<GoldRoom-set>  //금화방
+		<GoldRoom>
+			<Gold>1,0</Gold>
+		</GoldRoom>
+		<GoldRoom>
+			<Gold>2,0</Gold>
+		</GoldRoom>
+		<GoldRoom>
+			<Gold>2,1</Gold>
+		</GoldRoom>
+		<GoldRoom>
+			<Gold>3,0</Gold>
+		</GoldRoom>
+		<GoldRoom>
+			<Gold>3,2</Gold>
+		</GoldRoom>
+		<GoldRoom>
+			<Gold>4,0</Gold>
+		</GoldRoom>
+		<GoldRoom>
+			<Gold>4,2</Gold>
+		</GoldRoom>
+	</GoldRoom-set>
+	<Item-set>  //아이템 카드
+		<Item>
+			<ItName>SWORD</ItName>
+			<FxType>POWER</FxType>
+			<FxValue>5</FxValue>
+		</Item>
+		<Item>
+			<ItName>KEY</ItName>
+			<FxType>POWER</FxType>
+			<FxValue>5</FxValue>
+		</Item>
+		<Item>
+			<ItName>PORTION</ItName>
+			<FxType>HP</FxType>
+			<FxValue>0</FxValue>
+		</Item>
+		<Item>
+			<ItName>STEAL</ItName>
+			<FxType>GOLD</FxType>
+			<FxValue>2</FxValue>
+		</Item>
+		<Item>
+			<ItName>CRYSTAL</ItName>
+			<FxType>TURN</FxType>
+			<FxValue>0</FxValue>
+		</Item>
+		<Item>
+			<ItName>TREASON</ItName>
+			<FxType>HP</FxType>
+			<FxValue>2</FxValue>
+		</Item>
+    <Item>
+      <ItName>GOLD</ItName>
+      <FxType>GOLD</FxType>
+      <FxValue>0</FxValue>
+    </Item>
+	</Item-set>
+	<ItemRoom-set>
+		<ItemRoom>  //아이템카드를 얻을 수 있는 방
+			<ItemList>GOLD, GOLD, PORTION, STEAL, PORTION</ItemList>
+			<UseNow>true,true,true,false,true</UseNow>
+			<GetValues>1,2,1,0,2</GetValues>
+		</ItemRoom>
+		<ItemRoom>
+			<ItemList>GOLD, CRYSTAL, KEY, SWORD, TREASON</ItemList>
+      <UseNow>true,false,false,false,false</UseNow>
+			<GetValues>1,0,0,0,0 </GetValues>
+		</ItemRoom>
+		<ItemRoom>
+			<ItemList>GOLD, CRYSTAL, PORTION, GOLD, TREASON</ItemList>
+      <UseNow>true,false,true,true,false</UseNow>
+			<GetValues>1,0,1,3,0</GetValues>
+		</ItemRoom>
+	</ItemRoom-set>
+	<TrapRoom-set>  //함정방
+		<TrapRoom>
+			<TrType>GOLD</TrType>
+			<LossValue>0,0,1,2,3</LossValue>
+		</TrapRoom>
+		<TrapRoom>
+			<TrType>GOLD</TrType>
+			<LossValue>0,1,1,2,2</LossValue>
+		</TrapRoom>
+		<TrapRoom>
+			<TrType>HP</TrType>
+			<LossValue>0,1,1,1,2</LossValue>
+		</TrapRoom>
+		<TrapRoom>
+			<TrType>HP</TrType>
+			<LossValue>0,0,1,2,2</LossValue>
+		</TrapRoom>
+	</TrapRoom-set>
+	<Boss-set> //최종 보스
+		<Boss>  
+			<BoName>MEDUSA</BoName>
+			<IsDefeat>true</IsDefeat>
+			<Hp>7,11,14</Hp>
+			<ExitType>NONE</ExitType>
+			<Damage>-1</Damage>
+			<Gold>0</Gold>
+		</Boss>
+		<Boss>
+			<BoName>CERBERUS</BoName>
+			<IsDefeat>true</IsDefeat>
+			<Hp>7,11,14</Hp>
+			<ExitType>NONE</ExitType>
+			<Damage>0</Damage>
+			<Gold>-3</Gold>
+		</Boss>
+		<Boss>
+			<BoName>OBERON</BoName>
+			<IsDefeat>false</IsDefeat>
+			<Hp>0,0,0</Hp>
+			<ExitType>ITEM</ExitType>
+			<Damage>2</Damage>
+			<Gold>0</Gold>
+		</Boss>
+		<Boss>
+			<BoName>DRAGONKING</BoName>
+			<IsDefeat>false</IsDefeat>
+			<Hp>0,0,0</Hp>
+			<ExitType>ITEM</ExitType>
+			<Damage>3</Damage>
+			<Gold>0</Gold>
+		</Boss>
+	</Boss-set>
+	<PlayerClass-set>  //플레이어 직업
+		<Class>
+			<PlName>GRAVEROBBER</PlName>
+			<Hp>-2</Hp>
+			<Gold>1</Gold>
+			<Item>KEY</Item>
+		</Class>
+		<Class>
+			<PlName>WORRIOR</PlName>
+			<Hp>0</Hp>
+			<Gold>0</Gold>
+			<Item>SWORD</Item>
+		</Class>
+		<Class>
+			<PlName>PRIEST</PlName>
+			<Hp>-1</Hp>
+			<Gold>3</Gold>
+			<Item>NONE</Item>
+		</Class>
+		<Class>
+			<PlName>WITCH</PlName>
+			<Hp>0</Hp>
+			<Gold>0</Gold>
+			<Item>CRYSTAL</Item>
+		</Class>
+	</PlayerClass-set>
+</Basic>

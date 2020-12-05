@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>  
+ <title> 회원가입 창</title> 
+<style>
+  @font-face{
+ 		font-family:"My Font";
+ 		src: url("fontstyle/ENCOSCPT.TTF");
+ 	}
+ 	h1{
+   	color:#003900; 
+   	position:fixed;
+   	top: 0px;
+   	left:10px;
+   	font-family:"My Font", serif; 
+   	font-size: 30pt;
+   }
+   #infor{
+   position:fixed; 
+   top:40px; right:0px;
+   }
+   #infor a{
+   text-decoration:none; 
+   color:#5D5D5D; 
+   font-size:13pt; 
+   display: inline;
+   padding :5px;
+   }
+   #infor a:hover{
+   tex-decoration:underline; 
+   color: black;
+   text-weight:bold;
+   }
+   #categ{
+   position:fixed;
+   top:25px; right:670px;
+   }
+   #categ ul li{
+   display: inline;
+   }
+   #categ ul li a{
+   text-decoration:none; 
+   color:#003900; 
+   font-size:10pt;
+   font-weight:bold;
+   text-transform:uppercase;
+   padding :5px;
+   }
+   #categ ul li a:hover{
+   tex-decoration:underline; color: black;
+   }
+</style>
+</head>
+<body>
+  <h1 style="position: relative; left: 800px;"> New TURN <em5>회원가입</em5> </h1>
+  <h2>회원정보 입력</h2>
+ <form name=frm1>
+  <table align=center border=1 bordercolor=white bordercolorlight=gray cellspacing=20 cellpadding=10>
+  <tr bgcolor=#ececec align=center>
+  <td colspan=2>회원가입</td></tr>
+  <tr><td bgcolor=#ececec align=center>이름</td>
+  <td><input type=text name=name size=12 maxlength=12></td></tr>
+  <tr>
+  <td bgcolor=#ececec align=center>생년월일</td>
+  <td><select name=year>
+  <option value=1 SELECTED>1996</option>
+  <option value=2 SELECTED>1997</option>
+  <option value=3 SELECTED>1998</option>
+  <option value=4 SELECTED>1999</option></select>
+  <select name=month>
+  <option value=1 SELECTED>01</option>
+  <option value=2 SELECTED>02</option>
+  <option value=3 SELECTED>03</option>
+  <option value=4 SELECTED>04</option>
+  <option value=5 SELECTED>05</option>
+  <option value=6 SELECTED>06</option>
+  <option value=7 SELECTED>07</option>
+  <option value=8 SELECTED>08</option>
+  <option value=9 SELECTED>09</option>
+  <option value=10 SELECTED>10</option>
+  <option value=11 SELECTED>11</option>
+  <option value=12 SELECTED>12</option></select>
+  <select name=day>
+  <option value=1 SELECTED>01</option>
+  <option value=2 SELECTED>02</option>
+  <option value=3 SELECTED>03</option>
+  <option value=4 SELECTED>04</option>
+  <option value=5 SELECTED>05</option>
+  <option value=6 SELECTED>06</option>
+  <option value=7 SELECTED>07</option>
+  <option value=8 SELECTED>08</option>
+  <option value=9 SELECTED>09</option>
+  <option value=10 SELECTED>10</option>
+  <option value=11 SELECTED>11</option>
+  <option value=12 SELECTED>12</option>
+  <option value=13 SELECTED>13</option>
+  <option value=14 SELECTED>14</option>
+  <option value=15 SELECTED>15</option>
+  <option value=16 SELECTED>16</option>
+  <option value=17 SELECTED>17</option>
+  <option value=18 SELECTED>18</option>
+  <option value=19 SELECTED>19</option>
+  <option value=20 SELECTED>20</option>
+  <option value=21 SELECTED>21</option>
+  <option value=22 SELECTED>22</option>
+  <option value=23 SELECTED>23</option>
+  <option value=24 SELECTED>24</option>
+  <option value=25 SELECTED>25</option>
+  <option value=26 SELECTED>26</option>
+  <option value=27 SELECTED>27</option>
+  <option value=28 SELECTED>28</option>
+  <option value=29 SELECTED>29</option>
+  <option value=30 SELECTED>30</option>
+  <option value=31 SELECTED>31</option></select></td></tr>
+
+  <tr><td bgcolor=#ececec align=center>아이디</td>
+  <td><input type=text name=id size=12 maxlength=12></td></tr>
+  <tr><td bgcolor=#ececec align=center>패스워드</td>
+  <td><input type=password name=pw size=12 maxlength=8></td></tr>
+  <tr><td bgcolor=#ececec align=center>성별</td>
+  <td><input type=radio name=sex value=male>남
+  <input type=radio name=sex value=female checked>여</td></tr>
+  <tr><td bgcolor=#ececec align=center>이메일</td>
+  <td><input type=text name=email size=4 maxlength=10>@
+  <select name=email1>
+  <option value=1 SELECTED>naver.com</option>
+  <option value=2 SELECTED>daum.net</option>
+  <option value=3 SELECTED>google.com</option></select></td></tr>
+  <tr><td bgcolor=#ececec align=center>휴대폰</td>
+  <td><select name=phone1>
+  <option value=1 SELECTED>010</option>
+  <option value=2 SELECTED>011</option>
+  <option value=3 SELECTED>019</option>
+  <option value=4 SELECTED>016</option>
+  <option value=4 SELECTED>017</option>
+  <option value=4 SELECTED>018</option> </select>-
+  <input type="text" name=phone2 size=4 maxlength=4>-
+  <input type="text" name=phone3 size=4 maxlength=4></td></tr></table>
+  <table align=center><tr><td>
+   <input type="submit" value="제출"></td> <!--형태를 submit로하고 버튼에 제출로 나타낸다.-->
+   <td><input type="reset"></td></tr>
+ </table>
+ </form>
+</body>
+</html>

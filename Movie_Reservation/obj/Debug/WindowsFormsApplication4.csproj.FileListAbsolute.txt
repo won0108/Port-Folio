@@ -1,0 +1,91 @@
+C:\Users\Student\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
+C:\Users\Student\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
+C:\Users\Student\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
+C:\Users\Student\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Form1.resources
+C:\Users\Student\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+C:\Users\Student\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
+C:\Users\Student\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+C:\Users\Student\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Form2.resources
+C:\Users\지원\Desktop\영화\bin\Debug\WindowsFormsApplication4.exe.config
+C:\Users\지원\Desktop\영화\obj\Debug\WindowsFormsApplication4.exe
+C:\Users\지원\Desktop\영화\obj\Debug\WindowsFormsApplication4.pdb
+C:\Users\지원\Desktop\영화\obj\Debug\WindowsFormsApplication4.csprojResolveAssemblyReference.cache
+C:\Users\지원\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form1.resources
+C:\Users\지원\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form2.resources
+C:\Users\지원\Desktop\영화\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+C:\Users\지원\Desktop\영화\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
+C:\Users\지원\Desktop\영화\bin\Debug\WindowsFormsApplication4.exe
+C:\Users\지원\Desktop\영화\bin\Debug\WindowsFormsApplication4.pdb
+C:\Users\지원\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form3.resources
+C:\Users\지원\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form4.resources
+C:\Users\지원\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form5.resources
+C:\Users\지원\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form6.resources
+C:\Users\지원\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form7.resources
+C:\Users\Student\Desktop\영화\bin\Debug\WindowsFormsApplication4.exe.config
+C:\Users\Student\Desktop\영화\obj\Debug\WindowsFormsApplication4.exe
+C:\Users\Student\Desktop\영화\obj\Debug\WindowsFormsApplication4.pdb
+C:\Users\Student\Desktop\영화\bin\Debug\WindowsFormsApplication4.exe
+C:\Users\Student\Desktop\영화\bin\Debug\WindowsFormsApplication4.pdb
+C:\Users\Student\Desktop\영화\obj\Debug\WindowsFormsApplication4.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form1.resources
+C:\Users\Student\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form2.resources
+C:\Users\Student\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form3.resources
+C:\Users\Student\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form4.resources
+C:\Users\Student\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form5.resources
+C:\Users\Student\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form6.resources
+C:\Users\Student\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form7.resources
+C:\Users\Student\Desktop\영화\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+C:\Users\Student\Desktop\영화\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\영화\obj\Debug\WindowsFormsApplication4.Form8.resources
+C:\Users\지원\Desktop\영화 (2) (1)\영화\bin\Debug\WindowsFormsApplication4.exe.config
+C:\Users\지원\Desktop\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.exe
+C:\Users\지원\Desktop\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.pdb
+C:\Users\지원\Desktop\영화 (2) (1)\영화\bin\Debug\WindowsFormsApplication4.exe
+C:\Users\지원\Desktop\영화 (2) (1)\영화\bin\Debug\WindowsFormsApplication4.pdb
+C:\Users\지원\Desktop\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.csprojResolveAssemblyReference.cache
+C:\Users\지원\Desktop\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form1.resources
+C:\Users\지원\Desktop\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form2.resources
+C:\Users\지원\Desktop\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form3.resources
+C:\Users\지원\Desktop\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form4.resources
+C:\Users\지원\Desktop\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form5.resources
+C:\Users\지원\Desktop\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form6.resources
+C:\Users\지원\Desktop\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form7.resources
+C:\Users\지원\Desktop\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form8.resources
+C:\Users\지원\Desktop\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+C:\Users\지원\Desktop\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\bin\Debug\WindowsFormsApplication4.exe.config
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\bin\Debug\WindowsFormsApplication4.exe
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\bin\Debug\WindowsFormsApplication4.pdb
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.csprojAssemblyReference.cache
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form1.resources
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form2.resources
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form3.resources
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form4.resources
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form5.resources
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form6.resources
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form7.resources
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Form8.resources
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.cache
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.csproj.CoreCompileInputs.cache
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.exe
+D:\3학년\1학기\윈도우즈\영화 (2) (1)\영화\obj\Debug\WindowsFormsApplication4.pdb
+E:\포트폴리오 소스파일\영화예매\bin\Debug\WindowsFormsApplication4.exe.config
+E:\포트폴리오 소스파일\영화예매\bin\Debug\WindowsFormsApplication4.exe
+E:\포트폴리오 소스파일\영화예매\bin\Debug\WindowsFormsApplication4.pdb
+E:\포트폴리오 소스파일\영화예매\obj\Debug\WindowsFormsApplication4.csprojAssemblyReference.cache
+E:\포트폴리오 소스파일\영화예매\obj\Debug\WindowsFormsApplication4.Form1.resources
+E:\포트폴리오 소스파일\영화예매\obj\Debug\WindowsFormsApplication4.Form2.resources
+E:\포트폴리오 소스파일\영화예매\obj\Debug\WindowsFormsApplication4.Form3.resources
+E:\포트폴리오 소스파일\영화예매\obj\Debug\WindowsFormsApplication4.Form4.resources
+E:\포트폴리오 소스파일\영화예매\obj\Debug\WindowsFormsApplication4.Form5.resources
+E:\포트폴리오 소스파일\영화예매\obj\Debug\WindowsFormsApplication4.Form6.resources
+E:\포트폴리오 소스파일\영화예매\obj\Debug\WindowsFormsApplication4.Form7.resources
+E:\포트폴리오 소스파일\영화예매\obj\Debug\WindowsFormsApplication4.Form8.resources
+E:\포트폴리오 소스파일\영화예매\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+E:\포트폴리오 소스파일\영화예매\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.cache
+E:\포트폴리오 소스파일\영화예매\obj\Debug\WindowsFormsApplication4.csproj.CoreCompileInputs.cache
+E:\포트폴리오 소스파일\영화예매\obj\Debug\WindowsFormsApplication4.exe
+E:\포트폴리오 소스파일\영화예매\obj\Debug\WindowsFormsApplication4.pdb
