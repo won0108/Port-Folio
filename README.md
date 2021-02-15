@@ -1,12 +1,12 @@
 # Port-Folio
 ## 안녕하세요. 개발 포트폴리오 소스를 편리하게 보기 위해 안내 드립니다. 그리고 소스파일 별 약간의 설명을 나타내었습니다. 감사합니다.
 ### 1. Creating_Homepage 소스 위치
-  Shopping > WebContent
-    js file : 메인 홈 다이나믹 배너 소스
-    Shoping.html : 메인 홈 및 다이나믹 배너 노출
-    태연.html : 메인 홈 > 태연 이미지 클릭 시, 상세 페이지 노출
-    Login/회원가입 창/마이페이지.html : 로그인/회원가입
-    Pants/skirt/top.html: 각 카테고리 별 페이지
+  + Shopping > WebContent
+    + js file : 메인 홈 다이나믹 배너 소스
+    + Shoping.html : 메인 홈 및 다이나믹 배너 노출
+    + 태연.html : 메인 홈 > 태연 이미지 클릭 시, 상세 페이지 노출
+    + Login/회원가입 창/마이페이지.html : 로그인/회원가입
+    + Pants/skirt/top.html: 각 카테고리 별 페이지
     
 ### 2. Dungeon_Version2 소스 위치
   Assets > Script
