@@ -26,7 +26,7 @@
     + StageManager.cs: 방이 일정 수준의 확률로 노출되기 위한 소스
     + StarUI.cs: 게임시작 시, 인원수 선택
     + UIManager.cs: UI 관련 기본 설정
-    + Assets > Resources
+  + Assets > Resources
     + Dungeon_Data.xml: 게임에 필요한 몬스터, 아이템 카드, 현재 방 등 기본 사항 작성
     
 ### 3. Graduation_work 소스 위치
